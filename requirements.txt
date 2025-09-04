@@ -1,0 +1,18 @@
+# Core ML Libraries
+torch
+torchvision
+transformers
+diffusers
+accelerate
+peft
+xformers
+
+# UI and Image Processing
+gradio==3.47.1
+opencv-python==4.8.0.76
+Pillow
+numpy
+
+# Evaluation (Optional)
+lpips
+gdown
