@@ -4,7 +4,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fzoyNzcJNZjM1_08FE9V2V20EQxGf4PH?usp=sharing)
  <a href="https://visual-ai.github.io/inpaint4drag"><img alt='page' src="https://img.shields.io/badge/Project-Website-orange"></a>
- <a href="https://arxiv.org/abs/2407.18247"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2407.18247-b31b1b.svg"></a>
+ <a href="https://arxiv.org/abs/2509.04582"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2509.04582-b31b1b.svg"></a>
   <a href="https://drive.google.com/file/d/1rdi4Rqka8zqHTbPyhQYtFC2UdWvAeAGV/view?usp=drive_link"><img alt='data' src="https://img.shields.io/badge/Download-Dataset-green.svg"></a>
 
 <p align="left">
