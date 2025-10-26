@@ -24,6 +24,7 @@ conda create -n inpaint4drag python=3.10 -y
 conda activate inpaint4drag
 
 # Install requirements 
+pip install torch torchvision
 pip install -r requirements.txt
 
 # Install EfficientViT-SAM (Optional)

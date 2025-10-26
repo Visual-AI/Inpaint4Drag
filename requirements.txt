@@ -1,11 +1,9 @@
 # Core ML Libraries
-torch
-torchvision
-transformers
-diffusers
-accelerate
-peft
-xformers
+transformers==4.57.1
+diffusers==0.35.2
+accelerate==1.11.0
+peft==0.17.1
+xformers==0.0.32.post2
 
 # UI and Image Processing
 gradio==3.47.1
