@@ -34,7 +34,7 @@ pip install git+https://github.com/mit-han-lab/efficientvit.git
 ## Run Inpaint4Drag
 After installing the requirements, you can simply launch the user inferface through:
 ```
-python3 app.py
+python app.py
 ```
 
 ## Evaluation
