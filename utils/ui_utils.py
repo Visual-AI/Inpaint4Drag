@@ -268,5 +268,5 @@ def inpaint(image, inpaint_mask):
 
     # Post-process results
     inpaint_mask = (inpaint_mask[..., np.newaxis] / 255).astype(np.uint8)
-    # return (inpainted * 255).astype(np.uint8) * inpaint_mask + image * (1 - inpaint_mask)
-    return (inpainted * 255).astype(np.uint8)
+    return (inpainted * 255).astype(np.uint8) * inpaint_mask + image * (1 - inpaint_mask)
+    # return (inpainted * 255).astype(np.uint8)
