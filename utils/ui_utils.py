@@ -182,7 +182,7 @@ def preview_out_image(canvas, points, sam_ks, inpaint_ks, if_sam=False, output_p
 def setup_pipeline(device='cuda', model_version='v1-5'):
     """Initialize optimized inpainting pipeline with specified model configuration."""
     MODEL_CONFIGS = {
-        'v1-5': ('runwayml/stable-diffusion-inpainting', 'latent-consistency/lcm-lora-sdv1-5', 'madebyollin/taesd'),
+        'v1-5': ('sd-legacy/stable-diffusion-inpainting', 'latent-consistency/lcm-lora-sdv1-5', 'madebyollin/taesd'),
         'xl': ('diffusers/stable-diffusion-xl-1.0-inpainting-0.1', 'latent-consistency/lcm-lora-sdxl', 'madebyollin/taesdxl')
     }
     model_id, lora_id, vae_id = MODEL_CONFIGS[model_version]
